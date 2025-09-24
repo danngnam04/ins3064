@@ -11,6 +11,13 @@
   $age = 21;
   $course = array("Java", "C", "PHP");
   echo  "Name: " . $name . ", age: " . $age . "<br/>3rd course is: " . $course[2];
+  
+  $x = $_GET["x"];
+  $y = $_GET["y"];
+
+  echo "x + y =" . ($x + $y) . "<br>";
+  echo "x == y" . ($x==$y) . "<br>";
+  
   ?>
 </body>
 </html>
